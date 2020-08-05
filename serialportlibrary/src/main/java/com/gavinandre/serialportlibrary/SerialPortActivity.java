@@ -23,12 +23,13 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.security.InvalidParameterException;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public abstract class SerialPortActivity extends AppCompatActivity {
